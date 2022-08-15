@@ -7,6 +7,39 @@
   <script src="./script.js" defer></script>
 </head>
 <body>
-  
+  <div class="ctrl-panel">
+    <div class="panel-content">
+      <div class="ctrl-block">
+        <p class="block-title">Color Mode</p>
+        <input type="button" class="btn" id="bnw-btn" value="Black & White">
+        <input type="button" class="btn" id="rainbow-btn" value="Rainbow">
+        <input type="button" class="btn" id="grayscale-btn" value="Grayscale">
+      </div>
+      <div class="ctrl-block">
+        <p class="block-title">Grid Size</p>
+        <div class="range-input">
+          <input type="range" id="gridsize-rng" min="1" max="64" value="16">
+          <span id="gridsize-txt">16</span>
+        </div>
+      </div>
+      <div class="ctrl-block">
+        <input type="button" class="btn" id="create-btn" value="Create Sketch">
+      </div>
+    </div>
+    <div class="panel-title">
+      <p>CONTROL PANEL</p>
+    </div>
+  </div>
+  <div class="device">
+    <div class="decor">
+      <div class="button-shade">
+        <div class="button-body"></div>
+      </div>
+      <image class="brand-name" src="./images/brang-name.png">
+      <div class="button-shade">
+        <div class="button-body"></div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
